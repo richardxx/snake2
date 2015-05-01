@@ -1,0 +1,16 @@
+请使用以下办法自动安装软件:
+
+tar zxf Snake.tar.gz
+cd Snake
+make
+su	//切换到root用户
+make install
+make clean
+
+程序默认安装在/usr/local/GreedySnake下.
+
+使用如下办法自动卸载:
+make uninstall
+
+							Richard Leon
+							2006.3.2

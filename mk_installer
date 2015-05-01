@@ -1,0 +1,12 @@
+#!/bin/sh
+
+install_dir=$1
+
+if ! [ -f install_dir ]
+then
+	mkdir $install_dir
+	echo "Create $1 folder successfully"
+else
+	echo "The folder existed"
+fi
+
